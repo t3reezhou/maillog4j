@@ -8,15 +8,7 @@
 ## 准备
 首先需要几个核心的包
 ![image](./1.png)
-当然你也可以通过maven来下载其中的mail.jar和activation.jar
-
-```
-<dependency>
-      <groupId>javax.mail</groupId>
-      <artifactId>mail</artifactId>
-      <version>1.4.7</version>
-    </dependency>
-```
+上面的项目中有包含这些jar包，就在项目根目录下
 将这些jar都导入自己的项目中
 ## 配置文件
 在src中创建一个log4j.properties
