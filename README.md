@@ -38,7 +38,7 @@ log4j.appender.MAIL.layout.ConversionPattern=[ErrorMessage] %d - %c -%-4r [%t] %
 ![image](./2.png)
 选择账户
 ![image](./3.png)
-点击开启IMAP/SMTP服务，之后会要求你发送短信，之后你会在浏览器那收到qq提供给你的密码，将这个密码写到log4j.appender.MAIL.SMTPPassword中
+点击开启IMAP/SMTP服务，之后会要求你发送短信，接着你会在浏览器那收到qq提供给你的密码，将这个密码写到log4j.appender.MAIL.SMTPPassword中
 ![image](./4.png)
 ## runtime
 创建一个class
